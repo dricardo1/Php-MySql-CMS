@@ -8,7 +8,11 @@
     <p>Today&rsquo;s time and date (according to this web server) is
       <?php
 
-      echo date('H, l, F jS Y.');
+
+        $dt = new DateTime();
+        echo $dt->format('H:i ');
+        echo date('l, F jS Y.');
+
 
       ?>
     </p>
