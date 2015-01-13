@@ -1,0 +1,26 @@
+{
+  "name": "Php-MySql-CMS",
+  "version": "1.0.0",
+  "description": "Dynamic, MySql database driven CMS webapp, written in Php, JavaScript, jQuery, Html5 and CSS3. Intended to be packaged for mobile with jQuery Mobile and Cordova PhoneGap. For the initial test run, I will design with a Sci-Fi/Fantasy (Star Trek, Star Wars, LOTR, D&D, etc.) random jokes application and database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dricardo1/Php-MySql-CMS.git"
+  },
+  "author": "Don Ricardo JR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dricardo1/Php-MySql-CMS/issues"
+  },
+  "homepage": "https://github.com/dricardo1/Php-MySql-CMS",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.0"
+  }
+}
