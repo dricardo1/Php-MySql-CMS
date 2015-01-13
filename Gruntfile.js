@@ -12,5 +12,5 @@ grunt.initConfig({
   },
 });	
 
-grunt.rloadNpmTasks('grunt-contrib-concat');
+grunt.loadNpmTasks('grunt-contrib-concat');
 };
