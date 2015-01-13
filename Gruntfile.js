@@ -5,9 +5,13 @@ grunt.initConfig({
     options: {
       separator: ';',
     },
-    dist: {
+    js: {
       src: ['js/1.js', 'js/2.js'],
-      dest: 'build/scripts.js',
+      dest: 'build/js/scripts.js',
+    },
+    css: {
+      src: ['css/main.css', 'css/theme.css'],
+      dest: 'build/css/styles.css',
     },
   },
 });	
